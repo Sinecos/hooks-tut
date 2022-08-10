@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-
 const Usestate = () => {
 
     const [inputValue, setInputValue] = useState("Zufa");
