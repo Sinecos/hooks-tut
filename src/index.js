@@ -7,7 +7,9 @@ import UseEffect from './UseEffect';
 import UseRef from './UseRef';
 import UseLayoutEffect from './UseLayoutEffect'
 import UseImperativeHandle from './UseImperativeHandle'
+import UseContext from './UseContext'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <UseImperativeHandle />
+    <UseContext />
 );
