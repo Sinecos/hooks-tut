@@ -6,8 +6,8 @@ import UseReducer from './UseReducer';
 import UseEffect from './UseEffect';
 import UseRef from './UseRef';
 import UseLayoutEffect from './UseLayoutEffect'
-
+import UseImperativeHandle from './UseImperativeHandle'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <UseLayoutEffect />
+    <UseImperativeHandle />
 );
